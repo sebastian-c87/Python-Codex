@@ -36,3 +36,31 @@ python -m app.main
 
 This will open a simple GUI where you can paste Python code and obtain analysis
 and suggestions.
+
+
+## Instrukcja w języku polskim
+
+To repozytorium zawiera prototyp narzędzia do analizy kodu Python z
+wykorzystaniem AI. Aplikacja pozwala wkleić kod w okno edytora, wyszukuje
+błędy za pomocą `pyflakes`, a następnie wysyła kod do modelu OpenAI w celu
+uzyskania sugestii refaktoryzacji. Wyniki mogą zostać zapisane w bazie MongoDB.
+
+### Uruchamianie
+
+1. Zainstaluj wymagane biblioteki:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Ustaw zmienne środowiskowe `OPENAI_API_KEY` oraz opcjonalnie `MONGODB_URI`.
+
+3. Uruchom aplikację poleceniem:
+
+   ```bash
+   python -m app.main
+   ```
+
+Po uruchomieniu zobaczysz proste okno, w którym możesz wkleić kod Python i
+uzyskać podpowiedzi dotyczące błędów oraz możliwych ulepszeń.
+
