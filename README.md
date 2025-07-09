@@ -37,6 +37,7 @@ python -m app.main
 This will open a simple GUI where you can paste Python code and obtain analysis
 and suggestions.
 
+
 ## Instrukcja w języku polskim
 
 To repozytorium zawiera prototyp narzędzia do analizy kodu Python z
@@ -62,3 +63,4 @@ uzyskania sugestii refaktoryzacji. Wyniki mogą zostać zapisane w bazie MongoDB
 
 Po uruchomieniu zobaczysz proste okno, w którym możesz wkleić kod Python i
 uzyskać podpowiedzi dotyczące błędów oraz możliwych ulepszeń.
+
